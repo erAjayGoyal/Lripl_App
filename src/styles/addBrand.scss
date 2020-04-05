@@ -1,0 +1,92 @@
+$buttonBackground : #006666;
+$hoverTextColor : #101b1b;
+.formLeftMargin {
+  margin-top: 4%;
+}
+
+.buttonFloat{
+  float : right;
+  margin-top: 0%;
+}
+
+.form-control:focus { 
+   
+  border-color: #2f4f4f !important;
+}
+
+.button-class-upload {
+  
+    background-color: darkslategray !important;
+    border: $buttonBackground solid 2px !important;
+    color: white !important;
+    border-radius: 0px !important; 
+    width: 86px !important;
+    height: 29px !important;
+    border-radius: 0px;
+    font-size: 13px !important;
+    border-bottom: rgb(35, 110, 168) solid 1px !important;
+    padding: 4px !important;
+    margin-top: 4%;
+  
+}
+
+.label {
+  font-weight : 550;
+}
+
+.textField {
+  width : 100% !important
+}
+
+.routerWrapper {
+  left: 306px;
+  right: 267px;
+}
+
+.setButton {
+  float : right !important
+}
+
+.setFormContainer {
+  // left: 478px;
+  //   right: 326px;
+  //   position: fixed;  
+}
+
+.heading{
+  text-align: center;
+  margin-bottom: 30px;
+}
+ 
+.rowSet {
+  margin-top: 0% !important;
+}
+
+.buttonFloatClear{
+  float: right !important
+  ;
+}
+
+.buttonCancel{
+  background-color: #f0f0f0 !important;
+}
+
+.centerImage {  
+  display: block;
+  text-align: center;
+}
+.setButtonEdit{
+  float: right !important;
+}
+.customPadding {
+  padding-right: 4px !important;
+}
+
+.textArea{
+  width : 100%
+}
+
+.alignEditBtn{
+  display: block;
+  text-align: center;
+}

@@ -1,0 +1,100 @@
+$buttonBackground : #006666;
+$hoverTextColor : #101b1b;
+
+
+.categoryTableHeader {
+  width: 92%;
+  background-color: #f5f5f5 !important;
+  margin-left: 50px !important;
+}
+.categoryRow{
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  margin-left: 5px;
+}
+.listElements {
+  height: 35px;
+  box-shadow: aliceblue;
+  padding-top: 9px;
+  padding-left: 15px;
+}
+.categoryElementsHeader{ 
+  margin-left: 0px !important ;
+  margin-top: 12px;
+  font-weight: 700;
+  font-size: 16px;
+}
+.listElementsRow{ 
+  margin-left: 45px ;
+  margin-top: 12px;
+  font-weight: 700;
+  font-size: 14px;
+}
+.countDiv{
+  float: left !important;
+  margin-top: 0px;
+  margin-bottom: 12px;
+}
+.addButtonDiv{
+  float: right !important;
+  margin-top: 0px;
+  margin-bottom: 12px;
+}
+.setEditIconButton {  
+  font-size: 20px;
+  margin-top: 8px;
+  padding-left: 15px !important;
+}
+.setDeleteIconButton {  
+  font-size: 20px;
+  margin-top: 8px;
+  padding-left: 22px !important;
+}
+
+.categoryHeaderStyle{
+  width: fit-content;
+    font-size: 12px;
+    font-weight: 600;
+    margin-left: 10px;
+
+}
+.nameStyle{
+    width: fit-content;
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 0px;
+}
+.categoryIdStyle{
+  width: fit-content;
+  font-size: 12px;
+  font-weight: 400;
+  color: #808080;
+}
+.nameStyle:hover{
+    color: $hoverTextColor;
+    cursor: pointer;
+}
+.addButtonClass {
+    margin-top: 0%;
+    //margin-left: 16%;
+    width: auto !important;
+    float: right;
+}
+.setIconAdd{
+    padding-right: 6px;
+}
+
+.itemImageClass{
+  margin: 5px;
+  margin-left: 11px;
+}
+.category_divider{
+    background-color: rgba(0, 0, 0, 0.08)!important
+}
+.category_row{
+  width: 97.5%;
+  margin-top: 10px !important;
+  margin-left: 0px !important;
+}
+

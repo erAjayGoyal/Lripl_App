@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Link changes the class when hovered 1`] = `
+<ineractiveList
+  buttonConfig={
+    Array [
+      "edit",
+      "delete",
+    ]
+  }
+  data={
+    Array [
+      "Category Name 1",
+      "Category Name 2",
+      "Category Name 3",
+      "Category Name 4",
+      "Category Name 5",
+    ]
+  }
+  pageName="category"
+/>
+`;

@@ -1,0 +1,59 @@
+$buttonBackground : #006666;
+$hoverTextColor : #101b1b;
+
+.rowClass{
+  margin-top: 10px;
+}
+
+.oneThirdContainer{
+    margin-top: 13px;
+    padding-bottom: 34px;
+    height: auto;
+    max-height: 680px;
+    overflow-y: auto;
+}
+.addIcons{
+  padding: 0px !important;
+  margin-top: 10px !important;
+  margin-left: 2px;
+  cursor: pointer;
+}
+.add-brand-icon{
+  height: 20px;
+  width: 20px;
+  margin-bottom: 4px;
+}
+.add-brand-text{
+  font-size: 15px;
+  margin-left: 7px;
+  margin-top: 5px;
+
+}
+.search-brand{
+  margin-top: 2px;
+  margin-left: 0px;
+}
+.MuiInputBase-input {
+ font-size: 13px !important;
+ width: 130px !important;
+ padding-left: 0px !important;
+}
+.MuiInputBase-input:focus{
+  border-bottom: 1px solid #808080 !important;
+}
+.MuiInput-underline:after{
+  border-bottom: 1px solid #808080 !important;
+}
+.MuiInputAdornment-positionStart{
+  margin-right: 0px !important;
+  color: #808080;
+}
+.positionIcon{
+  display : block;
+  padding-bottom: 30px;
+}
+
+.brandName{
+  font-size: 13px;
+  color: #312f2d;
+}

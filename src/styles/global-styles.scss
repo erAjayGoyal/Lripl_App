@@ -1,0 +1,107 @@
+
+  //Global CSS code
+  $buttonBackground : #db3c5a;
+   $buttonBackgroundHover : rgb(219,60,90);
+$hoverTextColor : #101b1b;
+  input[type='checkbox']:checked + label::after {
+    border: rgb(59, 190, 255);
+  }
+  
+  .rowClass {
+    width : 100%;
+    margin-left:2px !important;
+  }
+  .button-class {
+    background-color: #db3c5a !important;
+    border: $buttonBackground solid 2px !important;
+    color: white !important;
+    width: 86px !important;
+    height: 32px !important;
+    border-radius: 0px;
+    font-size: 13px !important;
+    border-bottom: rgb(219, 60, 90) solid 1px !important;
+    padding: 4px !important;
+    margin-top: 4%;
+  }
+  .button-class:hover {
+    background-color: $buttonBackgroundHover !important;
+    opacity: 0.8;
+    border: None !important;
+    
+    padding-left: 6px !important;
+    padding-right: 6px !important;
+  }
+
+  .buttonClassCancel {
+    background-color: #c1c1c1 !important;
+      color: white !important;
+      width: 86px !important;
+      height: 32px !important;
+      border-radius: 0px;
+      font-size: 13px !important;
+      padding: 4px !important;
+      margin-top: 4%;
+  
+  }
+
+  .buttonClassCancel:hover {
+    background-color: #989898 !important;
+    border: None !important;
+  }
+
+  .container {
+    // PlungerValveclosed, PlungerValveClosedSub, PlungerState, PlungerCycles
+    width: 100% !important;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-top:0px;
+    @media (min-width: 767px) {
+      padding-left: 65px;
+      padding-top: 15px;
+    }
+  }
+    .blockTheme {
+      //border: #4ce0e0;
+     // border-style: groove;
+      //border-width: 2px;
+      //margin-left: 5%;
+      //padding-top: 1.5%;
+      margin-left: 0px !important;
+      margin-right: 0px !important;
+      padding-bottom: 1%;
+      padding-top: 1%;
+    }
+
+    .blockTheme:hover {
+      //border: #4ce0e0;
+     // border-style: groove;
+      //border-width: 2px;
+      //margin-left: 5%;
+      //padding-top: 1.5%;
+      margin-left : 0px;
+  background-color: #f5f5f5;
+    }  
+
+
+
+  .tdSubmit {
+    width: 100%;
+    // margin-right: 5px;
+    // padding-right: 8px;
+  }
+
+  .headerClass {
+    font-weight: bold;
+    padding: 3px 0px;
+    font-size: 14px;
+  }
+  .rowStyle {
+    margin-left: 3% !important;
+    margin-top: 2%;
+  }
+
+img{
+border-radius: 20%;
+}
